@@ -1,0 +1,73 @@
+@-webkit-keyframes mymove {
+  0%  {
+    transform:translateX(100%);
+  }
+  10% {
+    transform:translateX(0);
+  }
+  40% {
+    transform:translateX(0);
+  }
+  50% {
+    transform:translateX(-100%);
+  }
+  100%{
+    transform:translateX(-100%);
+  }
+
+}
+
+/* Standard syntax */
+@keyframes mymove {
+  0%  {
+    transform:translateX(100%);
+  }
+  10% {
+    transform:translateX(0);
+  }
+  40% {
+    transform:translateX(0);
+  }
+  50% {
+    transform:translateX(-100%);
+  }
+  100%{
+    transform:translateX(-100%);
+  }
+
+}
+
+
+.item{
+	display: inline-block;
+	line-height: 50px;
+	
+}
+img{
+	height: 50px;
+	width:50px;
+	}
+p{
+	margin:10px;
+	
+}
+.ticker{
+	
+	-webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation-delay: 5s;
+	 animation-timing-function: ease-in;
+    animation: mymove 3s infinite;
+	animation-delay: 5s
+    overflow: hidden;
+   
+}
+.ticker-wrap{
+	 width: 100%;
+	 background-color:yellow;
+  overflow: hidden;
+}
+.ticker:hover{
+	-webkit-animation: 0;
+}
+

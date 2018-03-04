@@ -1,3 +1,3 @@
 # Ideal-Village
-Internship Projects and assignments
-News Ticker using html,css
+Internship Projects and assignments.
+- News Ticker using html,css
